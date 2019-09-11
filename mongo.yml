@@ -1,8 +1,10 @@
+---
 apiVersion: apps/v1beta1
 kind: Deployment
 metadata:
   annotations:
     deployment.kubernetes.io/revision: "1"
+    flux.weave.works/automated: 'true'
   labels:
     app: mongo
   name: mongo
@@ -14,7 +16,7 @@ spec:
       app: mongo
   template:
     metadata:
-      creationTimestamp: null
+      creationTimestamp:
       labels:
         app: mongo
       name: mongo
