@@ -1,0 +1,1 @@
+{"jobID":"624ce00e-ede0-2479-e72c-c1a0291b5899","spec":{"type":"policy","cause":{"Message":"","User":"Jyothi Narra \u003cjyothin212@gmail.com\u003e"},"spec":{"default:deployment/mongo":{"add":{"automated":"true"},"remove":null}}},"result":null}
